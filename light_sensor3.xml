@@ -1,0 +1,27 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="importgpiozero" id=")BAcC)NA]Rc_v6v[iR7j" x="55" y="53">
+    <next>
+      <block type="import_signal" id="_V!G@OZGLtsoL{M0,Zrj">
+        <next>
+          <block type="lightset" id="C*d!#8NafeN!AZz?SVjY">
+            <field name="ldr">sensor</field>
+            <field name="pin">18</field>
+            <next>
+              <block type="pledset" id="VEdnQ0.!l,^pl7?5n.l+">
+                <field name="pwm">led</field>
+                <field name="pin">16</field>
+                <next>
+                  <block type="pledvar" id="%jR*`Z;{2q_-r:-B(G[:">
+                    <field name="pwm">led</field>
+                    <field name="action">source</field>
+                    <field name="act">sensor</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

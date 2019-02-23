@@ -1,0 +1,37 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="importgpiozero" id=")BAcC)NA]Rc_v6v[iR7j" x="55" y="53">
+    <next>
+      <block type="import_signal" id="_V!G@OZGLtsoL{M0,Zrj">
+        <next>
+          <block type="lightset" id="C*d!#8NafeN!AZz?SVjY">
+            <field name="ldr">sensor</field>
+            <field name="pin">18</field>
+            <next>
+              <block type="ledset" id="@6|`CoiLZ^1t6SrN#0J`">
+                <field name="led">led</field>
+                <field name="pin">16</field>
+                <next>
+                  <block type="lightvar" id="6l;A(?@,Z[XH,vi}.J`|">
+                    <field name="ldr">sensor</field>
+                    <field name="action">when_dark</field>
+                    <field name="act">led.on</field>
+                    <next>
+                      <block type="lightvar" id="fwaD2N-mJV2#(0FlXw/=">
+                        <field name="ldr">sensor</field>
+                        <field name="action">when_light</field>
+                        <field name="act">led.off</field>
+                        <next>
+                          <block type="pause_s" id="Hu(Jy?2~PiFrMR%d35~k"></block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,216 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mcimport" id="hEu*FX0;8Y3U]oW_5|re" x="16" y="10">
+    <next>
+      <block type="import_block" id="nWb~wJD2gaHc(|XMyEKa">
+        <next>
+          <block type="time" id="hv@FC-J}/Kyj.9l5bs)v">
+            <next>
+              <block type="importgpiozero" id="PO!IRA-TNkwpZr!Q3CKv">
+                <next>
+                  <block type="mccreate" id="_J!Gz/XrA53T,uD@[+~+">
+                    <next>
+                      <block type="mcblocks8" id="dW;*Wv77)~sbWeRV1F]B">
+                        <field name="x">-10</field>
+                        <field name="y">0</field>
+                        <field name="z">-10</field>
+                        <field name="q">60</field>
+                        <field name="w">50</field>
+                        <field name="e">50</field>
+                        <field name="r">block.AIR.id</field>
+                        <field name="t">0</field>
+                        <next>
+                          <block type="mcblocks8" id="r}e[Q9!v%xN@cJy(2eIW">
+                            <field name="x">-10</field>
+                            <field name="y">-1</field>
+                            <field name="z">-10</field>
+                            <field name="q">60</field>
+                            <field name="w">-1</field>
+                            <field name="e">10</field>
+                            <field name="r">block.GRASS.id</field>
+                            <field name="t">0</field>
+                            <next>
+                              <block type="mcblocks8" id="asI30?[L[3/)mjbY49n`">
+                                <field name="x">0</field>
+                                <field name="y">0</field>
+                                <field name="z">0</field>
+                                <field name="q">0</field>
+                                <field name="w">5</field>
+                                <field name="e">0</field>
+                                <field name="r">block.IRON_BLOCK.id</field>
+                                <field name="t">0</field>
+                                <next>
+                                  <block type="mctext5" id="ieCpdyLP+6.797CfGfZb">
+                                    <field name="x">1</field>
+                                    <field name="y">5</field>
+                                    <field name="z">0</field>
+                                    <field name="p">15</field>
+                                    <field name="i">block.WOOL.id</field>
+                                    <next>
+                                      <block type="mctext5" id="t00}T5#72i#Okq=P}Sab">
+                                        <field name="x">1</field>
+                                        <field name="y">4</field>
+                                        <field name="z">0</field>
+                                        <field name="p">15</field>
+                                        <field name="i">block.WOOL.id</field>
+                                        <next>
+                                          <block type="mctext5" id="nwpKkKAJu:7nKOJrvLIJ">
+                                            <field name="x">1</field>
+                                            <field name="y">3</field>
+                                            <field name="z">0</field>
+                                            <field name="p">15</field>
+                                            <field name="i">block.WOOL.id</field>
+                                            <next>
+                                              <block type="ledset" id="%62P,mP(ZW_ElM%-0q8w">
+                                                <field name="led">ledR</field>
+                                                <field name="pin">14</field>
+                                                <next>
+                                                  <block type="ledset" id="uu|TB{ppYZ,6zW2idHBH">
+                                                    <field name="led">ledG</field>
+                                                    <field name="pin">15</field>
+                                                    <next>
+                                                      <block type="ledset" id="GheRCrkJr8#A}o(^au{J">
+                                                        <field name="led">ledV</field>
+                                                        <field name="pin">18</field>
+                                                        <next>
+                                                          <block type="while_true" id="s;zegJAJHo^t2`E;A0ZV">
+                                                            <statement name="DO">
+                                                              <block type="mctext5" id="SJf0Q40Jd%pZitzS3[+h">
+                                                                <field name="x">1</field>
+                                                                <field name="y">5</field>
+                                                                <field name="z">0</field>
+                                                                <field name="p">14</field>
+                                                                <field name="i">block.WOOL.id</field>
+                                                                <next>
+                                                                  <block type="ledaction" id="}jk6{(rETs{EQ5`/2aRD">
+                                                                    <field name="led">ledR</field>
+                                                                    <field name="action">on</field>
+                                                                    <field name="bracket"></field>
+                                                                    <next>
+                                                                      <block type="sleep" id="DWj;{q][IriGB6c8e5;5">
+                                                                        <field name="sleepTime">1</field>
+                                                                        <next>
+                                                                          <block type="mctext5" id="]DYVV0k0|h}5WUJGx5-=">
+                                                                            <field name="x">1</field>
+                                                                            <field name="y">4</field>
+                                                                            <field name="z">0</field>
+                                                                            <field name="p">4</field>
+                                                                            <field name="i">block.WOOL.id</field>
+                                                                            <next>
+                                                                              <block type="ledaction" id="Mm_cg3d#o#nT^}kE}[6t">
+                                                                                <field name="led">ledG</field>
+                                                                                <field name="action">on</field>
+                                                                                <field name="bracket"></field>
+                                                                                <next>
+                                                                                  <block type="sleep" id="gpYU*P{}?]j|8F[N7()c">
+                                                                                    <field name="sleepTime">1</field>
+                                                                                    <next>
+                                                                                      <block type="mctext5" id=";86X|V.`;9i6CxL%gOhl">
+                                                                                        <field name="x">1</field>
+                                                                                        <field name="y">5</field>
+                                                                                        <field name="z">0</field>
+                                                                                        <field name="p">15</field>
+                                                                                        <field name="i">block.WOOL.id</field>
+                                                                                        <next>
+                                                                                          <block type="mctext5" id="5s/wxP@O.2]SfK66%R.)">
+                                                                                            <field name="x">1</field>
+                                                                                            <field name="y">4</field>
+                                                                                            <field name="z">0</field>
+                                                                                            <field name="p">15</field>
+                                                                                            <field name="i">block.WOOL.id</field>
+                                                                                            <next>
+                                                                                              <block type="mctext5" id="[*LwmknvBZFUG0QBF8N~">
+                                                                                                <field name="x">1</field>
+                                                                                                <field name="y">3</field>
+                                                                                                <field name="z">0</field>
+                                                                                                <field name="p">5</field>
+                                                                                                <field name="i">block.WOOL.id</field>
+                                                                                                <next>
+                                                                                                  <block type="ledaction" id="`Og23Mqz9HK@-f!IcqE2">
+                                                                                                    <field name="led">ledR</field>
+                                                                                                    <field name="action">off</field>
+                                                                                                    <field name="bracket"></field>
+                                                                                                    <next>
+                                                                                                      <block type="ledaction" id="43aQn^yb]V`oJ{eR5mSw">
+                                                                                                        <field name="led">ledG</field>
+                                                                                                        <field name="action">off</field>
+                                                                                                        <field name="bracket"></field>
+                                                                                                        <next>
+                                                                                                          <block type="ledaction" id="E.@nuD@_)-{{2|E|l3Wy">
+                                                                                                            <field name="led">ledV</field>
+                                                                                                            <field name="action">on</field>
+                                                                                                            <field name="bracket"></field>
+                                                                                                            <next>
+                                                                                                              <block type="sleep" id="?bJqE?`%KL,alwQaPRjs">
+                                                                                                                <field name="sleepTime">1</field>
+                                                                                                                <next>
+                                                                                                                  <block type="mctext5" id="cx4)^*-0aiPHtu2#@1WZ">
+                                                                                                                    <field name="x">1</field>
+                                                                                                                    <field name="y">3</field>
+                                                                                                                    <field name="z">0</field>
+                                                                                                                    <field name="p">15</field>
+                                                                                                                    <field name="i">block.WOOL.id</field>
+                                                                                                                    <next>
+                                                                                                                      <block type="ledaction" id="YDKMqXr+!m5=V^.-.tl9">
+                                                                                                                        <field name="led">ledV</field>
+                                                                                                                        <field name="action">off</field>
+                                                                                                                        <field name="bracket"></field>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </statement>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

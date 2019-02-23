@@ -1,0 +1,38 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="importgpiozero" id=")BAcC)NA]Rc_v6v[iR7j" x="55" y="53">
+    <next>
+      <block type="lightset" id="C*d!#8NafeN!AZz?SVjY">
+        <field name="ldr">sensor</field>
+        <field name="pin">18</field>
+        <next>
+          <block type="while_true" id="m8gfZlgqWyF~;4/UvX%L">
+            <statement name="DO">
+              <block type="lightaction" id="-ytra5YR`Tphx#m,]WBU">
+                <field name="ldr">sensor</field>
+                <field name="action">wait_for_light</field>
+                <field name="bracket"></field>
+                <next>
+                  <block type="varprint" id="vw*P+7cF?!#-wNJSpTm%">
+                    <field name="var">"It's light!"</field>
+                    <next>
+                      <block type="lightaction" id="x~eL/FhWG{N)fRYh/Nd5">
+                        <field name="ldr">sensor</field>
+                        <field name="action">wait_for_dark</field>
+                        <field name="bracket"></field>
+                        <next>
+                          <block type="varprint" id="e-cwDpubH_{=oGqR8ghu">
+                            <field name="var">"It's dark!"</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
